@@ -1,0 +1,28 @@
+
+
+main > .propagandas{
+    /*background-color: aqua;*/
+    width: 200px;
+    max-width: 200px;
+    overflow-y: scroll;
+}
+
+main > .propagandas > div {
+    width: 98%;
+    height: 35%;
+    max-height: 200px;
+    margin: auto auto;
+    margin-bottom: 4%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 2px 6px #9e9d9ded;
+}
+
+.mais_tarefas {
+    margin-left: 350px;
+    background-color: #04b513ed;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
