@@ -1,0 +1,12 @@
+main {
+    width: 350px;
+    height: 500px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+p {
+    font-size:  15px;
+}

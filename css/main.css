@@ -1,4 +1,4 @@
-/*PARTE DO HEADER*/
+/*CONFIGURAÇÕES DO HEADER*/
 
 *{
     margin: 0px;
@@ -43,7 +43,7 @@ header > nav > a {
     margin: 0 3px;
 }
 
-header > .pontos {
+.pontos {
     font-size: 13px; margin-right: 5px;
     background-color: rgba(24, 178, 0, 0.79);
     padding: 2px;
@@ -51,21 +51,21 @@ header > .pontos {
     border-radius: 2px;
 }
 
-header > .btn_conta {
+.btn_conta {
     margin-left: 5px;
     max-width: 80px;
     min-width: 80px;
     overflow: hidden;
 }
 
-header > a > .img_conta {
+.img_conta {
     width: 25px;
     height: 25px;
 }
 
-/*PARTE DO MAIN*/
+/*CONFIGURAÇÕES DO MAIN*/
 
-/*CONTEUDO NORMAL*/
+/*CONFIGURAÇÕES DA PARTE DE TAREFAS*/
 
 main {
     /*background-color: rgb(255, 0, 0);*/
@@ -76,7 +76,7 @@ main {
     justify-content: center;
 }
 
-main > .tarefas{
+.tarefas{
     /*background-color: aqua;*/
     display: block;
     width: 80%;
@@ -84,24 +84,24 @@ main > .tarefas{
     margin-right: 10px;
 }
 
-main > .tarefas > p{
+.tarefas > p{
    font-size: 12px;
    margin-bottom: 20px;
    font-weight: bold;
    text-transform: uppercase;
 }
 
-main > .tarefas > div{
+.tarefas > div{
     display: flex;
     width: 90%;
     height: 100px;
     margin: 1% 0px;
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 1px 2px 6px #9e9d9ded;
 }
 
-main > .tarefas > div > .task_desc {
+.task_desc {
     display: block;
     width: 75%;
     margin: auto auto;
@@ -110,18 +110,18 @@ main > .tarefas > div > .task_desc {
     /*background-color: aqua;*/
 }
 
-main > .tarefas > div > .task_desc > h3{
+.task_desc > h3{
     font-size: 13px;
     text-transform: uppercase;
     font-weight: bold;
     border-bottom: 2px solid #1e90ff;
 }
 
-main > .tarefas > div > .task_desc > p{
+.task_desc > p{
     font-size: 13px;
 }
 
-main > .tarefas > div > .task_join {
+.task_join {
     display: block;
     width: 25%;
     margin-left: 15px;
@@ -131,39 +131,87 @@ main > .tarefas > div > .task_join {
     /*background-color: rgb(45, 99, 0);*/
 }
 
-main > .tarefas > div > .task_join > p {
+.task_join > p {
     margin-bottom: 5px;
     font-size: 13px;
 }
 
-main > .tarefas > div > .task_join > button {
+.task_join > button {
     border: none;
     padding: 5px;
     background-color: #04b513ed;
+    box-shadow: 1px 2px 3px gray;
     border-radius: 5px;
 }
 
-main > .tarefas > div > .task_join > button > a {
+.task_join > button:hover {
+    background-color: #018c0ded;
+}
+
+.task_join > button > a {
     color: white;
 }
 
-/*PROPAGANDA*/
+/*CONFIGURAÇÕES DE PROPAGANDA*/
+.propagandas{
+    /*background-color: aqua;*/
+    min-height: 580px;
+    height: 684px;
+    width: 200px;
+    max-width: 200px;
+    max-height: auto;
+    overflow-y: scroll;
+}
 
+.propagandas > div {
+    width: 98%;
+    max-height: 35%px;
+    margin: auto auto;
+    margin-bottom: 4%;
+    /*background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 2px 6px #9e9d9ded;*/
+}
 
+.mais_tarefas {
+    margin-left: 350px;
+    background-color: #04b513ed;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px gray;
+}
 
-/*CONFIGURAÇÃO DA SCROLBARR*/
+.mais_tarefas:hover {
+
+    background-color: #018c0ded;
+}
+
+.propagandas > div > a > img{
+    width: 100%;
+    height: 135px;
+    box-shadow: 1px 2px 3px gray;
+    border-radius: 5px;
+}
+
+.propagandas > div > a > p{
+    color: #000;
+    font-size: 14px;
+}
+
+/*CONFIGURAÇÕES DA SCROLBARR*/
 
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 2px;
     /*color: #26ff1e;*/
 }
 
 ::-webkit-scrollbar-thumb {
-    width: 5px;
+    width: 2px;
     background-color: #1e90ff;
 }
 
-/*PARTE DO FOOTER*/
+/*CONFIGURAÇÕES DO FOOTER*/
 
 footer {
     background-color: #1e90ff;
@@ -186,18 +234,18 @@ footer > h1 {
     font-weight: 400;
 }
 
-footer > .redes_sociais {
+.redes_sociais {
     display: flex;
     justify-content: center;
     width: 20%;
 }
 
-footer > .redes_sociais > a {
+.redes_sociais > a {
     padding: 2.5px;
     margin: 0 2.5px;
 }
 
-footer > .redes_sociais > a > img {
+.redes_sociais > a > img {
     width: 30px;
     height: 30px;
 }
