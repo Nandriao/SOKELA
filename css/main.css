@@ -40,7 +40,7 @@ header > nav > a {
     font-weight: 550;
     padding:4px;
     font-size: 13px;
-    margin: 0 3px;
+    margin: 0 7px;
 }
 
 .pontos {
@@ -161,6 +161,7 @@ main {
     max-width: 200px;
     max-height: auto;
     overflow-y: scroll;
+    border-radius: 10px;
 }
 
 .propagandas > div {
@@ -202,12 +203,12 @@ main {
 /*CONFIGURAÇÕES DA SCROLBARR*/
 
 ::-webkit-scrollbar {
-    width: 2px;
+    width: 4px;
     /*color: #26ff1e;*/
 }
 
 ::-webkit-scrollbar-thumb {
-    width: 2px;
+    width: 4px;
     background-color: #1e90ff;
 }
 
