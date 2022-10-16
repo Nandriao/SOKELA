@@ -10,17 +10,26 @@
 <body>
 
     <main>
-        <h2>Login</h2>
-        <form action="">
-            <p class="des_email">Email</p>
-            <input type="email" name="email" id="input_email" placeholder="Digite aqui o seu email">
+        <section>
+            <h1>seja bem vindo de volta!</h1>
+            <img class="story" src="../img/story/login.png" alt="">
+        </section>
 
-            <p class="desc_senha">Senha</p>
-            <input type="password" name="senha" id="input_senha" placeholder="Digite aqui a seua senha">
-            <div>
-                <button type="submit">Fazer Login</button>
-                <a href="signup.html">Ainda não tenho conta</a>
+        <form class="sec_login">
+            <h2>Login</h2>
+
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" placeholder="email" required>
+
+            <label for="senha">senha</label>
+            <input type="password" name="senha" id="senha" placeholder="senha" required>
+
+            <div class="links">
+                <a href="#">esqueceu senha?</a>
+                <a href="signup.html">criar conta</a>
             </div>
+
+            <button type="submit">login</button>
         </form>
     </main>
     
