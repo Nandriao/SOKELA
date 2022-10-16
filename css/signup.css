@@ -20,7 +20,7 @@ form > input {
 }
 
 .story {
-    background-color: transparent;
+    margin-top: -45px;
     width: 500px;
     height: 500px;
     padding-right: 20px;

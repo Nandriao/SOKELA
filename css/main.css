@@ -45,23 +45,28 @@
 }
 
 body {
-    background-color: #1e90ff;
+    /*background-color: #6eb6ff;*/
     overflow-y: scroll;
+    /*background-color: #8ec0f2;*/
+    background-color: #e6f3ff;
 }
 
 header {
-    background-color: #1e90ff;
+    /*background-color: #1e90ff;*/
     display: flex;
     margin: auto auto;
     max-width: 100%;
+    margin-top: 20px;
     align-items: center;
     justify-content: center;
+    padding-bottom: 80px;
 }
 header > h1 {
     margin-right: 5%;
-    font-size: 16px;
-    color: #fff;
-    text-shadow: 1px 1px 2px #3e3e3e;
+    font-size: 20px;
+    color: #1e90ff;
+    font-weight: bold;
+    border-bottom: 2px solid #14599d;
     padding: 3px;
     font-family: 'dosis', 'comfortaa', 'sans-serif';
     font-weight: 475px;
@@ -74,12 +79,12 @@ header > nav {
 }
 
 header > nav > a {
-    color: #fff;
+    color: #000;
     font-weight: 550;
     padding:4px;
     font-size: 13px;
     margin: 0 3px;
-    text-shadow: 1px 1px 2px #3e3e3e;
+    font-weight: bold;
 }
 
 .pontos {
@@ -104,118 +109,147 @@ header > nav > a {
 
 /*CONFIGURAÇÕES DO MAIN*/
 
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /*CONFIGURAÇÕES DA PARTE DE TAREFAS*/
 
-main {
-    /*background-color: rgb(255, 0, 0);*/
-    margin-bottom: 50px;
-    max-width: 80%;
-    margin: 50px auto;
+.principal {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.content {
+    width: 100%;
+    height: 70vh;
+    margin-top: -40px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    /*background-color: #1e90ff;*/
 }
 
-.tarefas{
-    /*background-color: aqua;*/
-    display: block;
-    width: 80%;
-    /*margin: auto auto;*/
-    margin-right: 10px;
-}
-
-.tarefas > h1{
-   font-size: 12px;
-   margin-bottom: 20px;
-   text-shadow: 1px 1px 2px #3e3e3e;
-   color: #fff;
-   font-weight: bold;
-   text-transform: uppercase;
-   font-family: 'comfortaa', 'sanserif';
-}
-
-.tarefas > div{
+.story {
+    width: 45%;
+    float: left;
+    min-width: 300px;
+    max-width: 500px;
     display: flex;
-    width: 90%;
-    height: 100px;
-    margin: 1% 0px;
-    background-color: #e6f2ff;
-    border-radius: 5px;
-    box-shadow: 0px 0px 15px #868585ed;
+    justify-content: right;
+    align-items: center;
 }
 
-.task_desc {
-    display: block;
-    width: 75%;
-    margin: auto auto;
-    padding-left: 15px;
-    overflow: hidden;
-    /*background-color: aqua;*/
+.story > a > img {
+    width: 460px;
+    transform: rotate(-10deg);
 }
 
-.task_desc > h3{
-    font-size: 13px;
-    text-transform: uppercase;
-    font-weight: bolder;
+.question {
+    width: 40%;
+    height: 300px;
+}
+
+.question > p {
+    color: #000;
+    font-size: 1.1rem;
+}
+
+.title {
+    color: #FFC727;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.title1 {
     color: #1e90ff;
-    border-bottom: 2px solid #1a79d8;
-    font-family: 'comfortaa', 'sanserif';
+    font-size: 50px;
+    margin-bottom: 10px;
 }
 
-.task_desc > p{
-    font-size: 13px;
-    font-family: 'verdana', 'josefinsans', 'sanserif';
+.title2 {
+    color: #92E3A9;
+    font-size: 50px;
+    margin-bottom: 10px;
 }
 
-.task_join {
-    display: block;
-    width: 25%;
-    margin-left: 15px;
-    margin-top: 25px;
-    padding-right: 15px;
-    overflow: hidden;
-    /*background-color: rgb(45, 99, 0);*/
+.title3 {
+    color: #ff725e;
+    font-size: 50px;
+    margin-bottom: 10px;
 }
 
-.task_join > p {
-    margin-bottom: 5px;
-    font-size: 13px;
+.div3 > a {
+    background-color: #ff725e;
+}
+.question > div {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
 }
 
-.task_join > button {
-    border: none;
-    padding: 5px;
-    background-color: #04b513ed;
-    box-shadow: 1px 2px 3px gray;
-    border-radius: 5px;
+.question > div > p {
+    margin-right: 50px;
+    color: #fff;
+    background-color: #455A64;
+    box-shadow: 2px 2px 10px #3b4c54;
+    padding: 10px;
+    border-radius: 10px;
 }
 
-.task_join > button:hover {
-    background-color: #018c0ded;
+.question > div > a {
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #FFC727;
+    box-shadow: 0px 0px 7px #836514;
+    color: #6e5000;
+    font-weight: bold;
 }
 
-.task_join > button > a {
-    color: white;
+.question > .div1 > a {
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #1e90ff;
+    box-shadow: 0px 0px 7px #1e3772;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.question > .div2 > a {
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #92E3A9;
+    box-shadow: 0px 0px 7px #50805e;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.question > .div3 > a {
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #FF725E;
+    box-shadow: 0px 0px 7px #9b453a;
+    color: #fff;
+    font-weight: bold;
 }
 
 /*CONFIGURAÇÕES DE PROPAGANDA*/
 .propagandas{
-    /*background-color: aqua;*/
-    min-height: 580px;
-    height: 684px;
-    width: 200px;
-    max-width: 200px;
-    max-height: auto;
-    overflow-y: scroll;
+    display: none;
+    margin: 0 auto;
+    width: 90%;
+    height: 180px;
+    overflow-y: hidden;
+    overflow-x: scroll;    
 }
 
 .propagandas > div {
-    width: 98%;
-    max-height: 35%px;
-    margin: auto auto;
-    margin-bottom: 4%;
-    /*background-color: white;
-    border-radius: 5px;
-    box-shadow: 1px 2px 6px #9e9d9ded;*/
+    display: flex;
+    padding: 5px;
+    min-width: 195px;
 }
 
 .mais_tarefas {
@@ -240,30 +274,33 @@ main {
 }
 
 .propagandas > div > a > p{
-    color: #000;
-    font-size: 14px;
+    color: #ffffff;
+    font-size: 12px;
     font-family: 'disis';
-    font-weight: 600;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 /*CONFIGURAÇÕES DA SCROLBARR*/
 
 ::-webkit-scrollbar {
-    width: 2px;
+    width: 1px;
     /*color: #26ff1e;*/
 }
 
 ::-webkit-scrollbar-thumb {
     width: 2px;
-    background-color: #1e90ff;
+    background-color: #ffffff;
 }
 
 /*CONFIGURAÇÕES DO FOOTER*/
 
 footer {
-    background-color: #1e90ff;
+    /*background-color: #1e90ff;*/
     height: 100px;
-    padding-top: 20px;
+    padding-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -274,11 +311,10 @@ footer > h1 {
     width: 20%;
     justify-content: center;
     text-align: center;
-    color: #fff;
+    color: #000;
     padding: 5px;
-    font-size: 14px;
-    font-weight: 400;
-    text-shadow: 1px 1px 2px #3e3e3e;
+    font-size:16px;
+    font-weight: bold;
 }
 
 .redes_sociais {
