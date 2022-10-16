@@ -155,11 +155,10 @@ main {
 /*CONFIGURAÇÕES DE PROPAGANDA*/
 .propagandas{
     /*background-color: aqua;*/
-    min-height: 580px;
-    height: 684px;
+    height: 100vh;
     width: 200px;
     max-width: 200px;
-    max-height: auto;
+    max-height: 100vh;
     overflow-y: scroll;
     border-radius: 10px;
 }
