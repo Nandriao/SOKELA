@@ -55,21 +55,17 @@ header {
     /*background-color: #1e90ff;*/
     display: flex;
     margin: auto auto;
-    max-width: 100%;
+    max-width: 80%;
     margin-top: 20px;
     align-items: center;
     justify-content: center;
     padding-bottom: 80px;
 }
-header > h1 {
-    margin-right: 5%;
-    font-size: 20px;
-    color: #1e90ff;
-    font-weight: bold;
-    border-bottom: 2px solid #14599d;
-    padding: 3px;
-    font-family: 'dosis', 'comfortaa', 'sans-serif';
-    font-weight: 475px;
+
+header > img {
+    width: 80px;
+    margin-top: -5px;
+    margin-right: 4%;
 }
 
 header > nav {
@@ -97,8 +93,9 @@ header > nav > a {
 
 .btn_conta {
     margin-left: 5px;
-    max-width: 80px;
-    min-width: 80px;
+    width: 80px;
+    width: 30px;
+    padding: 5px;
     overflow: hidden;
 }
 
@@ -154,32 +151,30 @@ main {
 }
 
 .question > p {
-    color: #000;
-    font-size: 1.1rem;
+    color: #323232;
+    font-size: 18px;
+    font-family: 'rubik';
+    text-align: justify;
 }
 
 .title {
     color: #FFC727;
     font-size: 50px;
-    margin-bottom: 10px;
 }
 
 .title1 {
     color: #1e90ff;
     font-size: 50px;
-    margin-bottom: 10px;
 }
 
 .title2 {
     color: #92E3A9;
     font-size: 50px;
-    margin-bottom: 10px;
 }
 
 .title3 {
     color: #ff725e;
     font-size: 50px;
-    margin-bottom: 10px;
 }
 
 .div3 > a {
@@ -234,51 +229,6 @@ main {
     box-shadow: 0px 0px 7px #9b453a;
     color: #fff;
     font-weight: bold;
-}
-
-/*CONFIGURAÇÕES DE PROPAGANDA*/
-.propagandas{
-    display: none;
-    margin: 0 auto;
-    width: 90%;
-    height: 180px;
-    overflow-y: hidden;
-    overflow-x: scroll;    
-}
-
-.propagandas > div {
-    display: flex;
-    padding: 5px;
-    min-width: 195px;
-}
-
-.mais_tarefas {
-    margin-left: 350px;
-    background-color: #04b513ed;
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 1px 2px 3px gray;
-}
-
-.mais_tarefas:hover {
-
-    background-color: #018c0ded;
-}
-
-.propagandas > div > a > img{
-    width: 100%;
-    height: 135px;
-    box-shadow: 0px 0px 15px #868585ed;
-    border-radius: 5px;
-}
-
-.propagandas > div > a > p{
-    color: #ffffff;
-    font-size: 12px;
-    font-family: 'disis';
-    font-weight: 400;
-    text-transform: uppercase;
 }
 
 /*CONFIGURAÇÕES DA SCROLBARR*/
